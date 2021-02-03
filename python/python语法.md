@@ -2,6 +2,7 @@
 
 [__name__]()
 [with]()
+[none]()
 
 #### __name__ :
 1.python是解释性语言，当python执行到当前文件时，当前文件的__name__ 为main。
@@ -26,3 +27,6 @@ with newClass():
     test()
 
 ````
+
+#### none 
+1. none 给我的理解是not type，因为python赋值是才确定类型

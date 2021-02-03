@@ -1,6 +1,7 @@
 [git删除未跟踪文件]()  
 [git创建本地分支与远程分支]()
 [当前分支rebase某个远端分支]()
+[回退]()
 
 
 
@@ -13,4 +14,8 @@
 
 - 当前分支rebase某个远端分支:  
 git pull origin master --rebase
+
+- 回退有两种方式：
+    1. git reset commit-号  ： 这个需要手动回滚
+    2. git reset --hard commit-号 : 不需要手动回滚
 
